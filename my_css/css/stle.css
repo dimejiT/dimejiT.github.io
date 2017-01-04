@@ -3,6 +3,24 @@
     background-image: url("../../my_images/image/hero_image.jpg");
     color: white;
 }
+.modal-content iframe {
+    margin-top: 13px;
+    margin-bottom: 10px;
+}
+
+.modal-content {
+    position: relative;
+}
+
+button.close{
+    position: absolute;
+    top: 5px;
+    right:19px;
+    font-size: 26px;
+    opacity:1;
+    border-radius: 24px;
+    
+}
 
 .jumbotron p {
     font-weight: 100;
@@ -52,7 +70,7 @@ h1,li {
     margin: 15px auto;
 }
 
-.big_jim {
+.get_involved {
     background-color: #f5f5f5;
 }
 
@@ -60,4 +78,17 @@ footer {
     background-color: #f74c3c;
     padding-top: 150px;
     padding-bottom: 30px;
+    position:relative;
+}
+
+.back-to-top {
+    position:absolute;
+    bottom:20px;
+    right: 20px;
+}
+
+li.active a {
+    color: #e74c3c !important;
+    background-color: white;
+    
 }
