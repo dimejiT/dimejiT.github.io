@@ -76,10 +76,22 @@ h1,li {
 }
 
 footer {
-    background-color: #f74c3c;
+    background-color: black;
     padding-top: 30px;
     padding-bottom: 30px;
     position:relative;
+    color:#f74c3c;
+    font-family: arvo,courier,serif;
+    
+}
+.footer-links {
+    padding-left: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.footer-links a {
+    color:#e74c3c;
 }
 
 .back-to-top {
